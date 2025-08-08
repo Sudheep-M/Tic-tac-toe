@@ -125,7 +125,7 @@ const handleClick = (index) => {
   return (
     <div className="h-screen flex flex-col md:justify-center items-center bg-radial from-sky-500 via-blue-400 to-indigo-900">
         {winner && <Confetti width={width} height={height} />}
-      <h1 className="text-4xl mt-25 md:mt-0 md:text-5xl font- font-serif mb-4">Tic Tac Toe</h1>
+      <h1 className="text-4xl mt-20 md:mt-0 md:text-5xl font- font-serif mb-4">Tic Tac Toe</h1>
       <h2 className="text-xl bold md:text-xl mb-6">{gamestatus()}</h2>
       <div className='flex h-screen md:h-auto flex-col items-center justify-center'>
       <div className="grid grid-cols-3 gap-2 ">
